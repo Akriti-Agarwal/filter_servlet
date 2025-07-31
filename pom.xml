@@ -14,8 +14,31 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>jakarta.servlet.jsp.jstl</groupId>
+      <artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
+      <version>3.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.glassfish.web</groupId>
+      <artifactId>jakarta.servlet.jsp.jstl</artifactId>
+      <version>3.0.1</version>
+    </dependency>
   </dependencies>
+
+  <properties>
+    <db.username>admin</db.username>
+    <db.password>secret</db.password>
+  </properties>
+
   <build>
     <finalName>filter__servlet</finalName>
+    <resources>
+      <resource>
+        <directory>src/main/resources/</directory>
+        <filtering>true</filtering>
+        <!-- Enable filtering -->
+      </resource>
+    </resources>
   </build>
 </project>

@@ -7,10 +7,14 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+<head>
+    <title>Title</title>
+</head>
+<body>
+<form action="addInfo" method="get">
+    <input type="text" name="sname"><br>
+    <input type="text" name="id"><br>
+    <input type="submit"><br>
+</form>
+</body>
 </html>

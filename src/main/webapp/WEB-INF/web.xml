@@ -4,4 +4,15 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+<!--  <servlet>-->
+<!--    <servlet-name>abc</servlet-name>-->
+<!--    <servlet-class>com.Akriti.MyServlet</servlet-class>-->
+<!--  </servlet>-->
+<!--  <servlet-mapping>-->
+<!--    <servlet-name>abc</servlet-name>-->
+<!--    <url-pattern>/add</url-pattern>-->
+<!--  </servlet-mapping>-->
+  <welcome-file-list>
+    <welcome-file>profile.jsp</welcome-file>
+  </welcome-file-list>
 </web-app>
